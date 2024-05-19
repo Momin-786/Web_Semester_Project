@@ -4,6 +4,7 @@ This repository contains the code for a web development project created as part 
 
 ## Table of Contents
 - [Installation](#installation)
+- [Demo](#demo)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
@@ -27,6 +28,9 @@ This repository contains the code for a web development project created as part 
    cd ../server
    npm install
    ```
+
+## Demo
+Search Your City  [Live Demo Click Me](https://delightful-baklava-eb0cc9.netlify.app/).
 
 ## Usage
 
