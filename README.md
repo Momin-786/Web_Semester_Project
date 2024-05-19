@@ -67,11 +67,13 @@ This repository contains the code for a web development project created as part 
   - React
   - CSS
   - HTML
+  - JavaScript
 
 - **Server-side:**
   - Node.js
   - Express
   - MongoDB
+  - JavaScript
 
 ## Contributing
 
