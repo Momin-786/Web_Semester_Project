@@ -14,6 +14,8 @@ app.get("/", (req, res) => {
   res.send("I am Root for GET");
 });
 
+app.use(errorHandler);
+
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
