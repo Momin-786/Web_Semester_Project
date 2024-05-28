@@ -1,7 +1,7 @@
 import "dotenv/config";
 import express from "express";
-import mongoose from "mongoose";
 import connectDB from "./config/connectDB";
+import errorHandler from "./error.middleware";
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -14,9 +14,7 @@ app.get("/", (req, res) => {
   res.send("I am Root for GET");
 });
 
-app.post("/", (req, res) => {
-  res.send("Got a POST request");
-});
+app.use(errorHandler);
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
