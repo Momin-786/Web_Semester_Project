@@ -1,7 +1,7 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home";
-import HourlyForecast from "./pages/HourlyForecast";
+import HourlyPage from "./pages/HourlyPage";
 import WeeklyForecast from "./pages/WeeklyForecast";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
@@ -20,7 +20,7 @@ const App = () => {
 
         {
           path: "hourly-forecast",
-          element: <HourlyForecast />,
+          element: <HourlyPage />,
         },
 
         {
