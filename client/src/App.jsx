@@ -2,7 +2,7 @@ import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home";
 import HourlyPage from "./pages/HourlyPage";
-import WeeklyForecast from "./pages/WeeklyForecast";
+import WeeklyForecast from "./pages/WeeklyPage";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import MainLayout from "./layout/MainLayout";
