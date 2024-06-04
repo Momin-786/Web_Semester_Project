@@ -80,14 +80,14 @@ const MainLayout = () => {
       />
       <main>
         <Outlet
-          context={
-            ((darkMode = { darkMode }),
-            (currentWeatherData = { currentWeatherData }),
-            (forecastWeatherData = { forecastWeatherData }),
-            (hourlyWeatherData = { hourlyWeatherData }),
-            (degUnit = { degUnit }),
-            (setDegUnit = { setDegUnit }))
-          }
+          context={{
+            darkMode,
+            currentWeatherData,
+            forecastWeatherData,
+            hourlyWeatherData,
+            degUnit,
+            setDegUnit,
+          }}
         />
       </main>
       <footer>footer</footer>
