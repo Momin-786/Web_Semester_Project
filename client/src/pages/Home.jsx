@@ -1,9 +1,28 @@
-import React from 'react'
+import React from "react";
+import { useOutletContext } from "react-router-dom";
+import TimeDate from "../components/TimeDate";
+import CurrentWeather from "../components/CurrentWeather";
 
 const Home = () => {
-  return (
-    <div>Home</div>
-  )
-}
+  const { darkMode, degUnit, setDegUnit, currentWeatherData } =
+    useOutletContext();
 
-export default Home
+    if (!currentWeatherData) return <div>Loading...</div>;
+
+  return (
+    <>
+      <TimeDate
+        darkMode={darkMode}
+        currentWeatherData={currentWeatherData}
+      />
+      <CurrentWeather
+        darkMode={darkMode}
+        degUnit={degUnit}
+        setDegUnit={setDegUnit}
+        currentWeatherData={currentWeatherData}
+      />
+    </>
+  );
+};
+
+export default Home;
