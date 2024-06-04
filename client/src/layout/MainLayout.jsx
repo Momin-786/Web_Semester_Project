@@ -71,7 +71,12 @@ const MainLayout = () => {
   };
 
   return (
-    <>
+    <div
+      className={
+        darkMode
+          ? "App dark-mode"
+          : "App"
+      }>
       <Header
         darkMode={darkMode}
         handleDarkMode={handleDarkMode}
@@ -91,7 +96,7 @@ const MainLayout = () => {
         />
       </main>
       <footer>footer</footer>
-    </>
+    </div>
   );
 };
 
