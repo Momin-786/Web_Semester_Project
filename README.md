@@ -37,7 +37,7 @@ This repository contains the code for a web development project created as part 
 
 ## Demo
 
-Search Your City  [Live Demo](https://web-semester-project-brown.vercel.app/).
+Search For Your City  [Live Demo](https://web-semester-project-brown.vercel.app/).
 
 ## Usage
 
