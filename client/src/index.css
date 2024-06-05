@@ -621,28 +621,27 @@ body {
 
 /* *********************************** */
 
-.login-form-container {
+/* ************************* Styling *************************** */
+
+.login-form-container,
+.create-account-form-container {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
 }
 
-
-
-.login-form {
+.login-form,
+.create-account-form {
   background-color: var(--clr-light-bg);
   padding: 20px;
   border-radius: 5px;
   box-shadow: var(--shadow);
-  width: 500px;
+  width: 400px;
 }
 
-.login-form.dark-mode {
-  background-color: var(--clr-dark-bg-bg);
-}
-
-.login-form h2 {
+.login-form h2,
+.create-account-form h2 {
   margin-bottom: 20px;
   text-align: center;
   font-weight: 600;
@@ -657,6 +656,7 @@ body {
   margin-bottom: 5px;
 }
 
+.form-group input[type="text"],
 .form-group input[type="email"],
 .form-group input[type="password"] {
   width: 100%;
@@ -667,10 +667,6 @@ body {
   background: var(--clr-light-bg);
   color: var(--clr-text-light);
   box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25);
-}
-
-.form-group input[type="checkbox"] {
-  margin-right: 5px;
 }
 
 button {

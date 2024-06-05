@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import CreateAccountForm from "../components/CreateAccountForm";
 
 const Signup = () => {
   return (
-    <div>Signup</div>
-  )
-}
+    <div>
+      <CreateAccountForm />
+    </div>
+  );
+};
 
-export default Signup
+export default Signup;
