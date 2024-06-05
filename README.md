@@ -30,7 +30,7 @@ This repository contains the code for a web development project created as part 
    ```
 
 ## Demo
-Search Your City  [Live Demo Click Me](https://delightful-baklava-eb0cc9.netlify.app/).
+Search Your City  [Live Demo Click Me](https://web-semester-project-brown.vercel.app/).
 
 ## Usage
 
