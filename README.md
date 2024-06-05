@@ -3,6 +3,7 @@
 This repository contains the code for a web development project created as part of a semester course. The project includes both client-side and server-side components, showcasing a full-stack application.
 
 ## Table of Contents
+
 - [Installation](#installation)
 - [Demo](#demo)
 - [Usage](#usage)
@@ -14,14 +15,19 @@ This repository contains the code for a web development project created as part 
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/Momin-786/Web_Semester_Project.git
    ```
+
 2. Navigate to the project directory:
+
    ```bash
    cd Web_Semester_Project
    ```
+
 3. Install the dependencies for both client and server:
+
    ```bash
    cd client
    npm install
@@ -30,26 +36,30 @@ This repository contains the code for a web development project created as part 
    ```
 
 ## Demo
-Search Your City  [Live Demo Click Me](https://web-semester-project-brown.vercel.app/).
+
+Search Your City  [Live Demo](https://web-semester-project-brown.vercel.app/).
 
 ## Usage
 
 1. Start the server:
+
    ```bash
    cd server
    npm run dev
    ```
+
 2. Start the client:
+
    ```bash
    cd client
    npm run dev
    ```
+
 3. Open your browser and go to `http://localhost:5173/` to view the application.
 
 ## Project Structure
 
-```
-.
+```bash
 ├── client
 │   ├── public
 │   └── src
