@@ -6,6 +6,8 @@ import WeeklyForecast from "./pages/WeeklyPage";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import MainLayout from "./layout/MainLayout";
+import WeatherReport from "./pages/WeatherReport";
+import User from "./pages/User";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -27,7 +29,14 @@ const App = () => {
           path: "weekly-forecast",
           element: <WeeklyForecast />,
         },
-
+        {
+          path: "weather-reports",
+          element: <WeatherReport />,
+        },
+        {
+          path: "user",
+          element: <User />,
+        },
         {
           path: "login",
           element: <Login />,

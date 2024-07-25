@@ -20,6 +20,7 @@ const MainLayout = () => {
   const [forecastWeatherData, setForecastWeatherData] = useState(null);
   const [hourlyWeatherData, setHourlyWeatherData] = useState(null);
 
+
   const handleDarkMode = () => {
     setDarkMode((oldDarkMode) => !oldDarkMode);
     localStorage.setItem("darkMode", !darkMode);
