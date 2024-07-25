@@ -27,6 +27,7 @@ const Home = () => {
         setDegUnit={setDegUnit}
         currentWeatherData={currentWeatherData}
       />
+      
     </div>
   );
 };

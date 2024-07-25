@@ -157,18 +157,27 @@ const Header = (props) => {
           className={darkMode ? "nav-link dark-mode" : "nav-link"}>
           Days Forecast
         </NavLink>
-
         <NavLink
+          to="/weather-reports"
+          className={darkMode ? "nav-link dark-mode" : "nav-link"}>
+          Weather Reports
+        </NavLink>
+        {/* <NavLink
           to="/login"
           className={darkMode ? "nav-link dark-mode" : "nav-link"}>
           Login
         </NavLink>
-
-        <NavLink
+<NavLink
           to="/signup"
           className={darkMode ? "nav-link dark-mode" : "nav-link"}>
           {" "}
           Signup
+        </NavLink> */}
+        <NavLink
+          to="/user"
+          className={darkMode ? "nav-link dark-mode" : "nav-link"}>
+          {" "}
+          Users
         </NavLink>
       </div>
     </header>
